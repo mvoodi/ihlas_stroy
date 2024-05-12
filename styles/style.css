@@ -108,7 +108,7 @@ section {
 .title {
     text-align: center;
     font-size: 4vmin;
-    color: rgb(56, 56, 56);
+    color: rgb(0, 0, 0);
 }
 
 .row, .row2{
@@ -162,7 +162,7 @@ p {
 }
 
 .trails-content {
-    width: 60%;
+    
     padding: 50px;
     color: whitesmoke;
     display: flex;
@@ -170,9 +170,12 @@ p {
     align-items: center;
 }
 
+
+
 .trails-content h1 {
     font-size: 7vmin;
-    /* margin: 50px; */
+    margin: 50px;
+    
 }
 
 .trails-content .line {
@@ -222,7 +225,7 @@ p {
 }
 .content-col h1, .content-col2 h1 {
     font-size: 7vmin;
-    color: #1d1d1d;
+    color: #000000;
 }
 
 .content-col .line, .content-col2 .line {
@@ -338,7 +341,7 @@ p {
         justify-content: center;
         background: #484872;
         margin-top: -900px;
-        transition: all 0.5s ease;
+        transition: all 2.5s ease;
     }
     .mobile-menu {
         margin-top: 0px;
@@ -385,6 +388,18 @@ p {
     }
     .contact-page{
         width: 80%;
+    }
+
+    .trails-content h1, .trails-content p{
+        max-width: 90%;
+        margin-top: 15px;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+
     }
 }
 /* Image and Button Hover Effects */
