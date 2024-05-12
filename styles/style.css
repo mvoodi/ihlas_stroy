@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bestseller-body{
+    background-image: linear-gradient(to top, rgb(255, 153, 0), rgb(255, 255, 255), rgb(255, 153, 0));
+}
 html, body {
     overflow-x: hidden; 
 }
